@@ -1,0 +1,15 @@
+.button {
+    padding: .5rem 1rem;
+    transform: skew(-20deg);
+    color: #fff;
+    font-weight: 600;
+
+    &--primary {
+        border: #9c0000 solid 2px;
+        background: #9c0000;
+    }
+
+    &--secondary {
+        border: #9c0000 solid 2px;
+    }
+}
