@@ -36,7 +36,7 @@
 import axios from 'axios';
 
 export default {
-    name: "ComputerNavbar",
+    name: "Navbar",
     data() {
         return {
             navbarIsOpen: false,
