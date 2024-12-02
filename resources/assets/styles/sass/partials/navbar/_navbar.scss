@@ -1,11 +1,13 @@
+@import "../../variables";
+
 .navbar {
     align-items: center;
-    background-color: #2d3748;
-    color: #fff;
+    background-color: $darker-color;
+    border-bottom: #444e60 solid .5rem;
+    color: $light-color;
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    min-height: 100%;
     padding: 1rem;
     width: 100%;
 
