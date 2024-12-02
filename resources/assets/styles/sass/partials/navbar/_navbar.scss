@@ -55,4 +55,26 @@
             margin-left: unset;
         }
     }
+
+    &__mobile {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        @media only screen and (min-width: 768px) {
+            align-items: unset;
+            display: flex;
+            justify-content: unset;
+            width: unset;
+        }
+    }
+
+    &__burger {
+        font-size: 3rem;
+
+        @media only screen and (min-width: 768px) {
+            display: none;
+        }
+    }
 }
