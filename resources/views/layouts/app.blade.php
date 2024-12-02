@@ -18,8 +18,8 @@
         </style>
     </head>
 
-    <body>
-    <div id="app">
+    <body class="body">
+    <div id="app" class="app">
         <app></app>
     </div>
     <script src="{{ asset('js/app.js') }}" defer></script>
