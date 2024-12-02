@@ -1,6 +1,6 @@
 <template>
-    <ComputerNavbar></ComputerNavbar>
-    <div class="body">
+    <Navbar></Navbar>
+    <div class="routecontainer">
         <router-view></router-view>
     </div>
 </template>
