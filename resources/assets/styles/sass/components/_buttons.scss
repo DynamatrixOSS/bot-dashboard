@@ -1,15 +1,17 @@
+@import "../variables";
+
 .button {
     padding: .5rem 1rem;
     transform: skew(-20deg);
-    color: #fff;
+    color: $light-color;
     font-weight: 600;
 
     &--primary {
-        border: #9c0000 solid 2px;
-        background: #9c0000;
+        border: $red-color solid 2px;
+        background: $red-color;
     }
 
     &--secondary {
-        border: #9c0000 solid 2px;
+        border: $red-color solid 2px;
     }
 }
