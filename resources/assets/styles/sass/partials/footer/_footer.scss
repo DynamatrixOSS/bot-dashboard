@@ -1,0 +1,35 @@
+@use "../../variables";
+
+.footer {
+    background-color: variables.$darker-color;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .brandText {
+        position: relative;
+        display: inline-block;
+
+        &::before,
+        &::after {
+            content: '//';
+            display: inline-block;
+            transform: skewX(-20deg);
+            color: variables.$red-color;
+            font-weight: bold;
+            margin: 0 0.5rem;
+        }
+
+        &::before {
+            margin-right: 0.5rem;
+        }
+
+        &::after {
+            margin-left: 0.5rem;
+        }
+    }
+}
+
