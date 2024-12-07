@@ -24,7 +24,7 @@
                 <i class="fas fa-globe"></i>
                 Dynamatrix
             </a>
-            <button class="button button--primary">
+            <button @click="directToOAuth" class="button button--primary">
                 <i class="fab fa-discord"></i>
                 Sign in
             </button>
@@ -42,7 +42,12 @@ export default {
             navbarIsOpen: false,
             isMobile: window.innerWidth <= 767
         }
-    }
+    },
+    methods: {
+        directToOAuth() {
+            window.location.href = 'https://discord.com/oauth2/authorize?client_id=1314619258797555753&response_type=code&redirect_uri=http%3A%2F%2F0.0.0.0&scope=guilds+email+guilds.members.read+identify'
+        }
+    },
 }
 
 </script>
