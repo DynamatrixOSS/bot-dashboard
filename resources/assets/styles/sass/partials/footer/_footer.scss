@@ -8,6 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 
     .brandText {
         position: relative;
